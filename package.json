@@ -1,0 +1,11 @@
+{
+  "name": "minecraft-bulk-bot-launcher",
+  "version": "1.0.0",
+  "dependencies": {
+    "mineflayer": "^4.29.0",
+    "proxy-agent": "^6.3.0",
+    "axios": "^1.6.8",
+    "readline-sync": "^1.4.10",
+    "prismarine-auth": "^2.7.0"
+  }
+}
