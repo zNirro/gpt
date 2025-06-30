@@ -49,7 +49,10 @@ async function main() {
     try {
       await login(email.trim());
     } catch (err) {
-      console.error('Failed to login:', err.message);
+      console.error('Failed to login:', err.message || err);
+      if (err?.response?.data) {
+        console.error('Details:', err.response.data);
+      }
     }
   });
 }

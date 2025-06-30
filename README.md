@@ -19,4 +19,8 @@ This project provides two scripts:
    node launch.js <server> [port]
    ```
 
+If `login.js` reports `403 Forbidden`, double-check that the account owns
+Minecraft Java Edition and that the device code was completed before the
+timeout.
+
 Bots will join sequentially with their stored credentials and send a greeting message.
